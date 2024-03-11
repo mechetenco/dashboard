@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    
+    
+</head>
+<body>
+    <main>
+        <div class="maingrid" id="main-grid">
+            <div class="sidebar" id="side-bar">
+                <h3><img src="assets/view_dashboard_outline_icon_139087.png" alt="home" class="dash-icon" > Dashboard</h3>
+                <ul>
+                    <li>
+                        <img src="assets/home.svg" alt="Home" class="li-icon">
+                        <p><a href="#">Home</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/card-account-details-outline.svg" alt="Profile" class="li-icon">
+                        <p><a href="#">Profile</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/message.svg" alt="Messages" class="li-icon">
+                        <p><a href="#">Messages</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/clock-outline.svg" alt="History" class="li-icon">
+                        <p><a href="#">History</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/note-multiple-outline.svg" alt="Tasks" class="li-icon">
+                        <p><a href="#">Tasks</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/account-group.svg" alt="Communities" class="li-icon">
+                        <p><a href="#">Communities</a></p>
+                    </li>
+                <br>
+                    <li>
+                        <img src="assets/cog.svg" alt="Settings" class="li-icon">
+                        <p><a href="#">Settings</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/help-box.svg" alt="Support" class="li-icon">
+                        <p><a href="#">Support</a></p>
+                    </li>
+                    <li>
+                        <img src="assets/shield-check.svg" alt="Privacy" class="li-icon">
+                        <p><a href="#">Privacy</a></p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="topbar">
+                <div id="top-bar">
+                    <div id="interact-search" class="interact">
+                        <div class="interact-search-div">
+                            <img src="assets/magnify.svg" alt="Search" width="25">
+                            <input type="text" name="search-bar" class="search-bar" placeholder="Search">
+                        </div>
+                        
+                        <div class="interact-profile-div">
+                            <a href="https://github.com/mechetenco">
+                                <img src="assets/bell-ring.svg" alt="Bell Alert" width="25">
+                            </a>
+                            <a href="#">
+                                <img src="assets/user_person_people_6100.png" alt="profile photo" id="prof-img">
+                            </a>
+                            <h3 id="interact-name" class="name">
+                                <a href="https://github.com/mechetenco" target="_blank" class="github-link">mechetenco</a>
+                            </h3>
+                        </div>
+                    </div>
+    
+                    <div class="interact">
+                        <div id="greet">
+                            <a href="#">
+                                <img src="assets/user_person_people_6100.png" alt="profile photo" id="user-img">
+                            </a>
+                            <div>
+                                <p class="para" id="greeting">Hi there,</p>
+                                <h3 class="name" id="user-name">mechetenco</h3>
+                            </div>
+                        </div>
+    
+                        <div id="interact-buttons">
+                            <button class="profile-buttons">New</button>
+                            <button class="profile-buttons">Upload</button>
+                            <button class="profile-buttons">Share</button>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="mainbar" id="main-bar">
+                <div id="main-projects">
+                    <h1 class="mainbarheading">Your Projects</h1>
+                    <div id="project-grid">
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">Landing Page</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">Odin Recipes</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">Etch-A-Sketch</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                 Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">Calculator</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">Rock Paper Scissors</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">App Name</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">App Name</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.</p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">App Name</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus. </p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="project-card" id="">
+                            <h1 class="project-header">
+                            <a href="#" target="_blank" class="project-link">App Name</a>
+                            </h1>
+                            <p class="para app-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                 Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus. </p>
+
+                            <div class="project-atb">
+                                <a href=""><img src="assets/star-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/eye-plus-outline.svg" alt=""></a>
+                                <a href=""><img src="assets/share-variant.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="misc">
+                    <div class="misc-div" id="announcements">
+                        <h1 class="main-heading">Announcements</h1>
+                        <div class="announcements-div">
+                            <div class="announcements">
+                                <a href=""  class="upcoming">Under Construction</a>
+                                <p class="proj">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus.
+                                </p>
+                            </div>
+                            <div class="announcements">
+                                <a href="" class="upcoming">Upcoming</a>
+                                <p class="proj">
+                                    Upcoming projects will be placed here. 
+                                </p>
+                            </div>
+                            <div class="announcements">
+                                <a href="" class="upcoming" ></a>
+                                <p class="proj">
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="misc-div" id="trending">
+                        <h1 class="main-heading">Trending</h1>
+                        <div class="announcements-div">
+                            <div class="announcements">
+                                <a href="" class="upcoming">Lorem Ipsum</a>
+                                <p class="proj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus. </p>
+                            </div>
+                            <div class="announcements">
+                                <a href="" class="upcoming">Lorem Ipsum</a>
+                                <p class="proj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus. </p>
+                            </div>
+                            <div class="announcements">
+                                <a href="" class="upcoming">Lorem Ipsum</a>
+                                <p class="proj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                    Morbi libero tellus, tincidunt quis enim et, posuere cursus lectus. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
