@@ -1,1 +1,1 @@
-Dashbord project to show understang of intermediate Html and Css
+Dashbord project to show understanding of intermediate Html and Css
